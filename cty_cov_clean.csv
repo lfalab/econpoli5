@@ -1,4 +1,4 @@
-"state","county","math_scores","college_share","income","poor_share","pop"
+"state","county","math_score","college_share","income","poor_share","pop"
 "Alabama","Autauga County",2.7598643,0.22199036,54052.8044565795,0.10591765,51032
 "Alabama","Baldwin County",2.7925096,0.26071036,52003.0934737882,0.1229422,183597
 "Alabama","Barbour County",1.6000091,0.13349621,33114.8548275485,0.25063077,29612
@@ -1801,7 +1801,7 @@
 "New Mexico","Colfax County",3.5531421,0.19749877,33052.6382545454,0.17059644,12678
 "New Mexico","Curry County",2.9131627,0.17830165,45337.432094427,0.19955947,46310
 "New Mexico","De Baca County",NA,0.19740854,31197,0.21613996,1855
-"New Mexico","Doña Ana County",2.5700798,0.24414352,39472.0491557259,0.24811997,211617
+"New Mexico","DoÃ±a Ana County",2.5700798,0.24414352,39472.0491557259,0.24811997,211617
 "New Mexico","Eddy County",2.9692659,0.1446512,60018.7450073381,0.13986026,52994
 "New Mexico","Grant County",2.639627,0.23656841,39733.3310971065,0.15133187,29532
 "New Mexico","Guadalupe County",2.5754275,0.074358217,26692,0.28185225,4236
