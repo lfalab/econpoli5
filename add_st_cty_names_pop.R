@@ -14,8 +14,8 @@ names(pop) <- c("state", "county", "stname", "ctyname", "pop_2010")
 
 # Add variables -----------------------------------------------------------
 
-cty <- dat %>% left_join(pop, by = c("state", "county")) %>% as_tibble()
+dat <- dat %>% left_join(pop, by = c("state", "county")) %>% as_tibble()
 
 # Remove lingering objects ------------------------------------------------
 
-rm(dat, pop)
+rm(pop)
