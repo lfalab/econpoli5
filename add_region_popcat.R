@@ -22,6 +22,10 @@ levels(dat$pop_cat) <- c("Least Populated",
                          "More Populated",
                          "Most Populated")
 
+# Drop if pop_cat is NA ---------------------------------------------------
+
+dat <- filter(dat, !is.na(pop_cat))
+
 # Remove lingering objects ------------------------------------------------
 
 rm(cty, reg)
