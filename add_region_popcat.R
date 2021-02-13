@@ -1,7 +1,7 @@
 # Read data ---------------------------------------------------------------
 library(tidyverse)
 # cty_cov_clean
-cty <- as_tibble(read.csv("https://raw.githubusercontent.com/lfalab/econpoli5/main/cty_cov_clean.csv"))
+cty <- as_tibble(read.csv("https://raw.githubusercontent.com/lfalab/econpoli5/main/county_cov_clean.csv"))
 # regions
 reg <- as_tibble(read.csv("https://raw.githubusercontent.com/lfalab/econpoli5/main/states_regions.csv"))
 # subset regions data frame
